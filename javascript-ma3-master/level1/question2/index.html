@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - MA03 - Question 2</title>
+<body>
+
+
+
+<script>
+var info = {
+	 "video": [{
+		"id": 12312412312,
+		"name": "Ecuaciones Diferenciales",
+		"url": "/video/math/edo/12312412312",
+		"author": {
+			"data": [{
+				"name_author": "Alejandro Morales",
+				"url": "/author/alejandro-morales",
+				"type": "master"
+			}]
+		}
+	}]
+	
+}
+console.log(info.video[0].id);	
+console.log(info.video[0].name);
+console.log(info.video[0].url);
+console.log(info.video[0].author.data[0].name_author);
+console.log(info.video[0].author.data[0].url);
+console.log(info.video[0].author.data[0].type);
+	</script>
+</body>
+</html>

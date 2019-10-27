@@ -1,0 +1,58 @@
+JavaScript MA03
+----------------
+Level 2
+
+1. In your own words, describe what JavaScript Code Style is.
+-ANSWER:
+JavaScript Code Style is a cleaner-easy to read code. It takes in considerations that
+delevopers and other working on the same team, can read the code more easy
+and understand it. It is by making your code as consistent you can, troghout your coding.
+
+2. What is a Regular Expression?
+-ANSWER:
+Regular expression = Syntax of a simple language.
+
+3. What does the .random() method do?
+-ANSWER
+The .random() method = Math.random() return a randum number between 0 (inclusive) and
+1 (exclusive).
+
+4. What does the .sort() method do?
+-ANSWER:
+The .sort() method sort an array alphabetically. If you have numbers in your array,
+the sort.() method is making a mess, because the default JavaScript comparison assume
+that the elements that are to be sorted are strings.
+
+5. What does the .reverse() method do?
+- ANSWER:
+THe .reverse() method is reversing the order of the elements(in an Array), so that the last value
+(index of an array) comes back first.
+
+6. List two examples of bad JavaScript code.
+ANSWER:
+-var myObj={name:"ghuts", adress:"nothere",
+type:"adoggy",      favorite:    "nuts",
+    female:    "how dare you"               }
+;
+var mySTRing   =   "the last place i want to be
+
+, is here by youre side"
+
+;
+
+7. What data types can a JSON object contain?
+-ANSWER:
+String, number, object(JSON object), array, boolean, null.
+
+8. What is minifying JavaScript Code?
+-ANSWER:
+Minifying JavaScript code- By removing unnecessary or redundant data without
+affecting how the recourse is processed by the browser. Using shorter variable and function names, 
+removing unused code and maybe even code comments.
+This will reduce load times and bandwidth usage on websites.
+
+9. What is a global variable?
+-ANSWER:
+A global variable is a variable that is declared outside of a function. 
+Meaning that all script and functions on a web page can access it.
+Global-scope.
